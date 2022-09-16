@@ -1,5 +1,7 @@
 ﻿
 
+// Kaynak : https://www.gencayyildiz.com/blog/c-factory-method-design-patternfactory-method-tasarim-deseni/
+
 namespace FactoryMethodDesignMethod
 {
     public class Program
