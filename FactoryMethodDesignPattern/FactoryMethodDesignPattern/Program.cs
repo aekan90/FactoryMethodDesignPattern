@@ -49,14 +49,14 @@ namespace FactoryMethodDesignMethod
         PS
     }
 
-    abstract class Oyun
+    interface Oyun
     {
-        public abstract void Platform();
+        void Platform();
     }
 
     class Atari : Oyun
     {
-        public override void Platform()
+        public void Platform()
         {
             Console.WriteLine("Bu oyun ATARİ platformunda çalışmaktadır.");
         }
@@ -64,7 +64,7 @@ namespace FactoryMethodDesignMethod
 
     class PC : Oyun
     {
-        public override void Platform()
+        public void Platform()
         {
             Console.WriteLine("Bu oyun PC platformunda çalışmaktadır.");
         }
@@ -72,7 +72,7 @@ namespace FactoryMethodDesignMethod
 
     class PS : Oyun
     {
-        public override void Platform()
+        public void Platform()
         {
             Console.WriteLine("Bu oyun PS platformunda çalışmaktadır.");
         }
